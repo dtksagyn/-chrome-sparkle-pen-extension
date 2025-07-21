@@ -70,11 +70,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👨‍💻 Author
-
-**[Your Name/GitHub Username]**
-* [Link to your GitHub Profile (e.g., `https://github.com/YOUR_USERNAME`)]
-* [Optional: Link to your personal website/portfolio]
-* [Optional: Link to your LinkedIn profile]
 
 ---
