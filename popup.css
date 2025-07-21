@@ -1,0 +1,92 @@
+/* styles/popup.css - UPDATED */
+
+body {
+  font-family: Arial, sans-serif;
+  width: 250px; /* Slightly wider to accommodate settings */
+  padding: 15px;
+  background-color: #f4f7f6;
+  color: #333;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.controls {
+  padding: 5px 0;
+}
+
+button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.2s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #e67e22;
+}
+
+button:disabled {
+  /* NEW: Style for disabled button */
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* NEW: Styles for the settings section */
+.settings {
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  text-align: left; /* Align setting labels */
+}
+
+.settings h2 {
+  font-size: 16px;
+  color: #34495e;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.setting-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.setting-group label {
+  font-size: 0.9em;
+  color: #555;
+  margin-right: 10px;
+}
+
+.setting-group select {
+  flex-grow: 1; /* Allow select to take available space */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.setting-group select:disabled {
+  /* NEW: Style for disabled select */
+  background-color: #f0f0f0;
+  color: #999;
+}
